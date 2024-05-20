@@ -49,6 +49,11 @@ export const navbarItemDef = reactive({
 		icon: 'ti ti-hash',
 		to: '/explore',
 	},
+	marketplace: {
+		title: i18n.ts.marketplace,
+		icon: 'ti ti-shopping-cart',
+		to: '/marketplace',
+	},
 	announcements: {
 		title: i18n.ts.announcements,
 		icon: 'ti ti-speakerphone',

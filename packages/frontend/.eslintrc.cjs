@@ -18,7 +18,7 @@ module.exports = {
 		'@typescript-eslint/no-empty-interface': [
 			'error',
 			{
-				'allowSingleExtends': true,
+				'allowSingleExtends': false,
 			},
 		],
 		// window の禁止理由: グローバルスコープと衝突し、予期せぬ結果を招くため
@@ -41,7 +41,7 @@ module.exports = {
 			'attribute': 1,
 			'baseIndent': 0,
 			'closeBracket': 0,
-			'alignAttributesVertically': true,
+			'alignAttributesVertically': false,
 			'ignores': [],
 		}],
 		'vue/html-closing-bracket-spacing': ['warn', {
@@ -60,7 +60,7 @@ module.exports = {
 		'vue/max-attributes-per-line': 'off',
 		'vue/html-self-closing': 'off',
 		'vue/singleline-html-element-content-newline': 'off',
-		'vue/v-on-event-hyphenation': ['error', 'never', { autofix: true }],
+		'vue/v-on-event-hyphenation': ['error', 'never', { autofix: false }],
 		'vue/attribute-hyphenation': ['error', 'never'],
 	},
 	globals: {

@@ -221,7 +221,11 @@ const routes: RouteDef[] = [{
 	path: '/explore',
 	component: page(() => import('@/pages/explore.vue')),
 	hash: 'initialTab',
-}, {
+},{
+	path: '/marketplace',
+	component: page(() => import('@/pages/marketplace.vue')),
+	hash: 'initialTab',
+},{
 	path: '/search',
 	component: page(() => import('@/pages/search.vue')),
 	query: {
